@@ -1,0 +1,16 @@
+﻿<Window x:Class="Ampelprojekt_IFS12.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ampelprojekt_IFS12"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="448.05" Width="238.298">
+    <Grid Margin="0,0,2,0">
+        <Button x:Name="btnEin" Content="Einschalten" HorizontalAlignment="Left" Height="52" Margin="32,55,0,0" VerticalAlignment="Top" Width="179" FontSize="18" Click="btnEin_Click"/>
+        <Button x:Name="btnUm" Content="Umschalten" HorizontalAlignment="Left" Height="52" Margin="32,126,0,0" VerticalAlignment="Top" Width="179" FontSize="18" Click="btnUm_Click"/>
+        <Button x:Name="btnAus" Content="Ausschalten" HorizontalAlignment="Left" Height="52" Margin="32,195,0,0" VerticalAlignment="Top" Width="179" FontSize="18" Click="btnAus_Click"/>
+        <Button x:Name="btnEnde" Content="Ende" HorizontalAlignment="Left" Height="52" Margin="32,325,0,0" VerticalAlignment="Top" Width="179" FontSize="18" Click="btnEnde_Click"/>
+
+    </Grid>
+</Window>
